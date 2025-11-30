@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    font-family: "Georgia", serif;
+    background-color: #E9DBC7;
+}
+
+header {
+    width: 100%;
+    background-color: #E9DBC7;
+}
+
+/* ---------- TOPO ---------- */
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 40px;
+}
+h1 {
+    margin: 0;
+    font-size: 30px;
+    color: #DCA7A2;
+    text-align: center;      /* garante centralização */
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #b48474;
+}
+
+.icons i {
+    font-size: 20px;
+    margin-left: 15px;
+    color: #b48474;
+    cursor: pointer;
+}
+
+/* ---------- MENU ---------- */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 10px 0;
+    background: #f4cbbf;
+    border: 1px solid #BE735B;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #BE735B;
+}
+
+nav a.ativo {
+    font-weight: bold;
+    border-bottom: 2px solid #875d55;
+}
+
+body {
+  background-color: #e5d4c1;
+  font-family: Arial, sans-serif;
+  color: #a8745b;
+  margin: 40px;
+}
+
+/* --- TÍTULO PRODUTOS MAIS VENDIDOS --- */
+.mais-vendidos {
+    background: #f2e5d5;
+    padding: 40px 20px;
+}
+
+.mais-vendidos h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #BE735B;
+}
+
+/* --- GRID DE PRODUTOS --- */
+.grade-produtos {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.produto {
+    width: 23%;
+    text-align: center;
+}
+
+.produto img {
+    width: 100%;
+    border-radius: 8px;
+    width: 250px;
+    height: 250px;
+    border: #BE735B;
+}
+
+.nome {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #BE735B;
+}
+
+.preco {
+    color: #BE735B;
+    margin-bottom: 8px;
+}
+
+/* CORES */
+.cores {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.cor {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid #BE735B;
+}
+
+/* Cores específicas */
+.bege { background: #e4c7a6; }
+.branco { background: #ffffff; }
+.preto { background: #000; }
+.rosa { background: #e8b7b7; }
+.marrom { background: #7a4c32; }
+.cinza { background: #cfcfcf; }
+.rose { background: #f4d4d4; }
+
+/* TAMANHOS */
+.tamanhos span {
+    margin: 0 4px;
+    color: #BE735B;
+}
+
+/* setores */
+.categorias-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    background: #f0ddc7;
+    padding: 40px 0;
+}
+
+.categorias {
+    display: flex;
+    gap: 40px;
+}
+
+.categoria-item {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #a86a57;
+}
+
+.categoria-item img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #c39a8a;
+    padding: 3px;
+    background: #f9f1ea;
+}
+
+.categoria-item p {
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.seta {
+    font-size: 30px;
+    color: #a86a57;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.seta:hover {
+    transform: scale(1.2);
+}
+
+/* produtos (3)*/
+.produtos-container {
+    display: flex;
+    justify-content: center;      /* centraliza tudo */
+    gap: 100px;                    /* distância entre as imagens */
+    background: #E9DBC7;          /* fundo bege */
+    padding: 40px 0;
+}
+.produtos-container2 {
+    display: flex;
+    justify-content: center;      /* centraliza tudo */
+    gap: 100px;                    /* distância entre as imagens */
+    background: #E9DBC7;          /* fundo bege */
+    padding: 40px 0;
+}
+.produtos-container3 {
+    display: flex;
+    justify-content: center;      /* centraliza tudo */
+    gap: 100px;                    /* distância entre as imagens */
+    background: #E9DBC7;          /* fundo bege */
+    padding: 40px 0;
+}
+
+.produtos-container4 {
+    display: flex;
+    justify-content: center;      /* centraliza tudo */
+    gap: 100px;                    /* distância entre as imagens */
+    background: #E9DBC7;          /* fundo bege */
+    padding: 40px 0;
+}
+
+.produtos-container5 {
+    display: flex;
+    justify-content: center;      /* centraliza tudo */
+    gap: 100px;                    /* distância entre as imagens */
+    background: #E9DBC7;          /* fundo bege */
+    padding: 40px 0;
+}
+
